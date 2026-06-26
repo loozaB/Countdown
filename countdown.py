@@ -8,7 +8,7 @@ st.set_page_config(page_title="Countdown Timer", layout="centered")
 st.markdown("""
     <style>
     .stApp {
-        background-image: url("");
+        background-image: url("https://github.com/loozaB/Countdown/blob/main/images.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
