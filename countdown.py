@@ -1,39 +1,39 @@
 import streamlit as st
 from datetime import datetime
-import time, base64
+import time
 
 st.set_page_config(page_title="Countdown Timer", layout="centered")
 
-# Custom CSS for gradient background and styled timer boxes
+# Inject CSS
 st.markdown("""
     <style>
+    /* Gradient background */
     .stApp {
-        background-image: url("https://github.com/loozaB/Countdown/blob/main/images.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        background: linear-gradient(135deg, #00c6ff, #0072ff);
+        color: white;
+        text-align: center;
     }
     .countdown-title {
-        font-size: 90px;
+        font-size: 40px;
         font-weight: bold;
         margin-bottom: 20px;
     }
     .countdown-container {
         display: flex;
         justify-content: center;
-        gap: 30px;
+        gap: 20px;
     }
     .countdown-box {
-        background: rgba(255, 255, 255, 0.1);
+        background: rgba(255, 255, 255, 0.15);
         padding: 20px;
         border-radius: 10px;
-        font-size: 35px;
+        font-size: 30px;
         font-weight: bold;
         min-width: 120px;
     }
     .countdown-label {
-        font-size: 25px;
-        margin-top: 7px;
+        font-size: 16px;
+        margin-top: 5px;
         display: block;
     }
     </style>
@@ -51,7 +51,7 @@ while True:
     remaining = target_datetime - now
 
     if remaining.total_seconds() <= 0:
-        placeholder.markdown(" 🎉 Time's up!")
+        placeholder.markdown("## 🎉 Time's up!")
         break
     else:
         days, seconds = divmod(int(remaining.total_seconds()), 86400)
