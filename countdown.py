@@ -30,6 +30,7 @@ st.markdown(f"""
         margin-top: 50px;
         color: black;
         padding-top: 25px;
+        text-align: center;
     }}
     .countdown-container {{
         display: flex;
@@ -44,10 +45,12 @@ st.markdown(f"""
         font-weight: bold;
         min-width: 120px;
         box-sizing: content-box;
+        text-align: center;
     }}
     .countdown-label {{
         font-size: 50px;
-        margin-top: 10px;
+        margin-bottom: 5px;
+        text-align: center;
         display: block;
         font-weight: bold;
         background: linear-gradient(to left, #00FEFF, #00FFFF);
