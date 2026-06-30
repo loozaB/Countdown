@@ -36,6 +36,7 @@ st.markdown(f"""
         display: flex;
         justify-content: center;
         gap: 30px;
+        flex-wrap: wrap;
     }}
     .countdown-box {{
         background: rgba(0, 0, 0, 0.3);
