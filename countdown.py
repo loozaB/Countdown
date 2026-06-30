@@ -43,7 +43,7 @@ st.markdown(f"""
         border-radius: 20px;
         font-size: 35px;
         font-weight: bold;
-        min-width: 120px;
+        min-width: 130px;
         box-sizing: content-box;
         text-align: center;
     }}
