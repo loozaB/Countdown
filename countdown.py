@@ -16,6 +16,7 @@ st.markdown(f"""
         background-repeat: no-repeat;
         #color: white;
         text-align: center;
+        max-width: 850px;
     }}
     .stApp::before{{
         content: "";
