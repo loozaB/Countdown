@@ -31,13 +31,16 @@ st.markdown(f"""
         color: black;
         padding-top: 25px;
         text-align: center;
-        width: 850px;
     }}
     .countdown-container {{
         display: flex;
         justify-content: center;
         gap: 30px;
-        flex-wrap: wrap;
+    }}
+    @media (max-width:500px){{
+        .countdown-container{{
+            flex-wrap: wrap;
+        }}
     }}
     .countdown-box {{
         background: rgba(0, 0, 0, 0.3);
