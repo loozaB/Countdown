@@ -64,7 +64,7 @@ st.markdown(f"""
 st.markdown('<div class="countdown-title">12 Barse BungaDyo Jatra</div>', unsafe_allow_html=True)
 
 # Fixed target date/time
-target_datetime = datetime(2027, 5, 10, 16, 0, 0)
+target_datetime = datetime(2027, 5, 10, 10, 15, 0)
 
 placeholder = st.empty()
 
