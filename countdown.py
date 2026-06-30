@@ -16,7 +16,6 @@ st.markdown(f"""
         background-repeat: no-repeat;
         #color: white;
         text-align: center;
-        max-width: 850px;
     }}
     .stApp::before{{
         content: "";
@@ -32,6 +31,7 @@ st.markdown(f"""
         color: black;
         padding-top: 25px;
         text-align: center;
+        width: 850px;
     }}
     .countdown-container {{
         display: flex;
